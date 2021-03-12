@@ -484,6 +484,7 @@ body
 .socialmedia ul{
 	position: relative;
 	display: flex;
+	justify-content: center;
 }
 
 .socialmedia li{
@@ -680,6 +681,7 @@ body
 	.socialmedia ul{
 		position: relative;
 		display: flex;
+		justify-content: center;
 	}
 	
 
@@ -843,6 +845,7 @@ body
 	.socialmedia ul{
 		position: relative;
 		display: flex;
+		justify-content: center;
 	}
 	
 
@@ -1008,6 +1011,7 @@ body
 	.socialmedia ul{
 		position: relative;
 		display: flex;
+		justify-self: center;
 	}
 		
 	
