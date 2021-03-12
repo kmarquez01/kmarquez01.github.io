@@ -481,9 +481,9 @@ body
 
 }
 
-.socialmedia{
+.socialmedia ul{
 	position: relative;
-	text-align: center;
+	display: flex;
 }
 
 .socialmedia li{
@@ -676,6 +676,11 @@ body
 		position: relative;
 		right: 25px;
 	}
+
+	.socialmedia ul{
+		position: relative;
+		display: flex;
+	}
 	
 
 } 
@@ -833,6 +838,11 @@ body
 	.socialmedia li{
 		position: relative;
 		right: 25px;
+	}
+
+	.socialmedia ul{
+		position: relative;
+		display: flex;
 	}
 	
 
@@ -993,6 +1003,11 @@ body
 	.socialmedia li{
 		position: relative;
 		right: 25px;
+	}
+
+	.socialmedia ul{
+		position: relative;
+		display: flex;
 	}
 		
 	
