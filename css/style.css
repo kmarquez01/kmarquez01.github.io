@@ -682,7 +682,7 @@ body
 
 	.button{
 		position: relative;
-		top: 30%;
+		top: 0%;
 		border: solid 2px;
 		border-color: whitesmoke;
 		display: inline-block;
