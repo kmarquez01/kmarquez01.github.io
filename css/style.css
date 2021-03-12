@@ -350,7 +350,7 @@ body
 .tictactoe{
 	position: relative;
 	width: 100%;
-	bottom: 70%;
+	bottom: 60%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
