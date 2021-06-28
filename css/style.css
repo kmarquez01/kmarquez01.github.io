@@ -51,7 +51,18 @@ body
 	overflow: hidden;
 }
 
-.title h1{
+.title1{
+
+	position: absolute;
+	color: whitesmoke;
+	line-height: 1.6em;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+}
+
+.title1 h1{
 	animation: anim 10s;
 }
 
@@ -61,10 +72,25 @@ body
 		margin-top: -100px;
 	}
 	25%{
-		margin-top: 37px;
+		margin-top: 38px;
 	}
 	100%{
-		margin-top: 37px;
+		margin-top: 38px;
+	}
+
+
+}
+
+@keyframes anim1{
+
+	0%{
+		margin-top: -100px;
+	}
+	25%{
+		margin-top: 0px;
+	}
+	100%{
+		margin-top: 0px;
 	}
 
 
@@ -83,6 +109,19 @@ body
 	transition: all 0.5s;
 }
 
+.button0{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: solid 2px;
+	border-color: whitesmoke;
+	display: table;
+	padding: 5px 20px;	
+	transition: all 0.5s;
+	animation: anim1 10s;
+}
+
 .button:hover{
 	border-color: black;
 	color:black;
@@ -97,6 +136,25 @@ body
 }
 
 .button a:hover{
+	color: black;
+	text-decoration: none
+
+}
+
+.button0:hover{
+	border-color: black;
+	color:black;
+	background-color: white;
+
+}
+
+.button0 a{
+	color: white;
+	text-decoration: none
+
+}
+
+.button0 a:hover{
 	color: black;
 	text-decoration: none
 
