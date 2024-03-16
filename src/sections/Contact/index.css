@@ -1,0 +1,92 @@
+.social-media-container{   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 1em 0;
+}
+
+.contact-main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%
+}
+
+
+.contact-description{
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-size: 24px;
+    width: 600px;
+}
+
+.contact-header{
+    position: relative;
+    font-size: 48px;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+}
+
+.name-field{
+    width: 475px;
+    font-size: 18px;
+    font-family: 'roboto';
+    padding: 5px;
+}
+
+.email-field{
+    width: 475px;
+    font-size: 18px;
+    font-family: 'roboto';
+    padding: 5px;
+}
+
+.message-field{
+    width: 477px;
+    height: 100px;
+    font-size: 18px;
+    font-family: 'roboto';
+    padding: 5px;
+    resize: none;
+}
+
+.send-button-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.send-button{
+    border:none;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 45px;
+}
+
+.icons-container:hover{
+    transition: all 0.2s;
+    scale: 1.1
+}
+
+@media only screen and (max-width: 1200px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .contact-main-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5%;
+    }
+}
+
