@@ -16,12 +16,13 @@
 
 .name-occupation-container{
   width: 40%;
-  height: 15%;
+  height: 7em;
   position: relative;
   overflow: hidden;
 }
 
 .name-container{
+    text-wrap: nowrap;
     width: 100%;
     position: absolute;
     font-family: "roboto";
@@ -37,7 +38,7 @@
 .occupation-container{
   opacity: 0;
   margin: 0;
-  top:0;
+  bottom: 0;
   position: absolute;
   font-size: 32px;
   font-weight: 300;
