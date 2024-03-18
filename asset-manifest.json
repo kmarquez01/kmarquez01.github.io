@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e109268b.css",
-    "main.js": "/static/js/main.0c1deed0.js",
+    "main.css": "/static/css/main.087242dc.css",
+    "main.js": "/static/js/main.af4dfafb.js",
     "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
     "static/media/anniesprattvGgn0xLdy8sunsplash.jpg": "/static/media/anniesprattvGgn0xLdy8sunsplash.893e49d391ce80634b5d.jpg",
     "static/media/tanyatrukyrUVPrs2vyXf0unsplash.jpg": "/static/media/tanyatrukyrUVPrs2vyXf0unsplash.0eac7974d2d2e4e10d4d.jpg",
@@ -38,12 +38,12 @@
     "static/media/kirby-art.svg": "/static/media/kirby-art.3d1f18430edc51145115f51b00d927b1.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.e109268b.css.map": "/static/css/main.e109268b.css.map",
-    "main.0c1deed0.js.map": "/static/js/main.0c1deed0.js.map",
+    "main.087242dc.css.map": "/static/css/main.087242dc.css.map",
+    "main.af4dfafb.js.map": "/static/js/main.af4dfafb.js.map",
     "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e109268b.css",
-    "static/js/main.0c1deed0.js"
+    "static/css/main.087242dc.css",
+    "static/js/main.af4dfafb.js"
   ]
 }
