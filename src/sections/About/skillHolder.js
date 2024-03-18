@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer';
 
+
 const dropAnimation = {
     top: "10px",
     opacity: 1,

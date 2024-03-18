@@ -21,7 +21,7 @@ code {
   background-color: rgb(16,16,16);
   position: fixed;
   color: white;
-  height: 5%;
+  height: 3em;
   width: 100%;
   z-index: 500;
 }
@@ -57,6 +57,10 @@ code {
 }
 
 .webnav-menu > li:nth-child(4) > .navbut{
+  border-right: none;
+}
+
+.dropdown-menu > li > .navbut{
   border-right: none;
 }
 

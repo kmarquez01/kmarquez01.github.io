@@ -38,25 +38,40 @@
 }
 
 .name-field{
+    color:white;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
     width: 475px;
     font-size: 18px;
     font-family: 'roboto';
-    padding: 5px;
+    padding: 10px;
 }
 
 .email-field{
+    color:white;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
     width: 475px;
     font-size: 18px;
     font-family: 'roboto';
-    padding: 5px;
+    padding: 10px;
 }
 
 .message-field{
+    color:white;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: transparent;
     width: 477px;
     height: 100px;
     font-size: 18px;
     font-family: 'roboto';
-    padding: 5px;
+    padding: 10px;
     resize: none;
 }
 
@@ -66,10 +81,18 @@
 }
 
 .send-button{
+    color:white;
     border:none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 18px;
     padding: 5px 45px;
+    cursor: pointer;
+    background-color: grey;
+    opacity: 0.80;
+}
+
+.send-button:hover{
+    opacity: 0.90;
 }
 
 .icons-container:hover{
@@ -87,6 +110,51 @@
         flex-direction: column;
         justify-content: center;
         gap: 5%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+
+    .contact-form{
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-container{
+        gap: 0px;
+    }
+
+    .contact-header{
+        font-size: 32px;
+    }
+
+    .contact-description{
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .name-field{
+        width: 300px;
+        font-size: 18px
+    }
+
+    .email-field{
+        width: 300px;
+        font-size: 18px
+    }
+
+    .message-field{
+        width: 300px;
+        font-size: 18px
+    }
+
+    .icons-container{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .image-holder{
+        height: 100px;
     }
 }
 

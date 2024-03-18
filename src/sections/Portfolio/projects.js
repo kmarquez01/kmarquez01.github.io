@@ -38,7 +38,7 @@ const projectsArray = [
     },
     {
         title: "CHAT-BOT",
-        description: "Have a quick conversation with a bot and get recommendations on shows!",
+        description: "Have a quick conversation with a bot for show recommendations!",
         repository: "https://github.com/kmarquez01/Chatbot",
         image: chatBotImage
     },

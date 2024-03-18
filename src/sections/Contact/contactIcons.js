@@ -16,20 +16,20 @@ import { IconContext } from "react-icons";
 const mediaIcons = [
     {
         image: 
-            <IconContext.Provider value = {{color: '#0077B5', size: '65px'}}>
+            <IconContext.Provider value = {{color: '#0077B5', size: '4em'}}>
                 <FaLinkedin />
             </IconContext.Provider>,
         link: "https://www.linkedin.com/in/kirby-marquez-0804b0222/"
     },
     {
         image: 
-            <IconContext.Provider value = {{color: '#FFFFFF', size: '65px'}}>
+            <IconContext.Provider value = {{color: '#FFFFFF', size: '4em'}}>
                 <FaGithubSquare />
             </IconContext.Provider>,
         link: "https://github.com/kmarquez01"
     },
     {
-        image: <IconContext.Provider value = {{ attr: {fill: '#962fbf'}, size: '65px'}}>          
+        image: <IconContext.Provider value = {{ attr: {fill: '#962fbf'}, size: '4em'}}>          
                     <FaSquareInstagram />
                 </IconContext.Provider>,
         link: "https://www.instagram.com/kirbymarquez_/"

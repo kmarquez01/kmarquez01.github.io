@@ -112,4 +112,48 @@
   .occupation-container{
     width: 500px;
   }
+
+  .about-header{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px){
+
+  .name-container{
+    width: auto;
+    position: relative
+
+  }
+
+  .occupation-container{
+    width: auto;
+    position: relative;
+  }
+
+  .name-occupation-container{
+    flex-direction: column;
+  }
+
+  .illustration-container{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .personIcon{
+    width: 150px;
+  }
+
+  .window-container{
+    width: 250px;
+    height: 130px;
+  }
+
+  .name-container{
+    font-size: 32px;
+  }
+
+  .occupation-container{
+    font-size: 18px;
+  }
 }

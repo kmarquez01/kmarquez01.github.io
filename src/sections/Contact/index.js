@@ -18,9 +18,9 @@ const [state, handleSubmit] = useForm("xgegleer");
                         Contact
                     </h1>
                     <p className = "contact-description">
-                        For inquires collaborations, or just to say hello, 
-                        feel free to reach out to us using the contact form! 
-                        Alternatively, you can connect with me via email at kirbymarquez15@gmail.com.
+                        For inquires or just to say hello, 
+                        feel free to reach out using the contact form! 
+                        Alternatively, you can connect with me through the media listed below.
                     </p>
                     <div className = "social-media-container">
                         {mediaIcons.map((item, index) => (

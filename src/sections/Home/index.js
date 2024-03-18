@@ -57,7 +57,6 @@ const nameAnimationStyle = {
 }
 
 const occupationAnimationStyle = {
-    top: "75px",
     opacity: 1,
     transition: {
         delay: 0.5,
