@@ -77,7 +77,7 @@ function About ({setState, divider, state, aboutRef}){
                             A recent experience includes an internship focused on Database development.
                         </motion.p>
                     </div>
-                    <div className = "illustration-container">
+                    <div className = "illustration-container-logo">
                         <div className = "picture-container">
                             <img className = "my-picture" src = {myLogo}></img>
                         </div>

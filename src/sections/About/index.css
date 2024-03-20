@@ -1,17 +1,17 @@
 .description-container {
     opacity: 0;
     width: 100%;
+    max-width: 36rem;
     white-space: pre-wrap;
     overflow-wrap: break-word;
     font-size: 24px;
-    width: 600px;
 
 }
 
 .picture-container{
     border-style: groove;
-    width: 500px;
-    height: 300px;
+    width: 32rem;
+    height: 18rem;
 }
 
 .my-picture{
@@ -28,6 +28,7 @@
     justify-content: space-evenly;
     flex-direction: row-reverse;
 }
+
 
 .about-header-wrap{
     background-color: black;
@@ -163,7 +164,14 @@
     background-color: #ED2224
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1170px){
+    .picture-container{
+        width: 24rem;
+        height: 12rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
     .about-container{
         display: flex;
         flex-direction: column;
@@ -173,11 +181,6 @@
     .skills-breaker-line{
         margin-top: 50px;
     }
-
-    .illustration-container{
-        height: auto;
-    }
-
 
 }
 
@@ -198,12 +201,12 @@
 
     .description-container{
         font-size: 18px;
-        width: 300px;
+        width: 16rem;
     }
 
     .picture-container{
-        width: 300px;
-        height: 150px;
+        width: 16rem;
+        height: 8rem;
     }
 
     .skills-header{
@@ -222,6 +225,74 @@
 
     .skill{
         font-size: 8px;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    .picture-container{
+        display: none;
+    }
+    .skills-breaker-line{
+        margin-top: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape){
+
+    .about-container{
+        flex-direction: row;
+        gap: 10px;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .description-container{
+        font-size: 16px;
+    }
+
+    .skills-list-container{
+        grid-template-columns: repeat(8, 1fr);
+        height: auto;
+    }
+
+    .wrap-container{
+        height: 5rem;
+    }
+
+    .picture-container {
+        margin: 10px;
+    }
+
+    .skills-breaker-line {
+        margin-top: 0px;
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1170px) and (orientation: landscape){
+
+    .about-holder-container{
+        margin: 15px;
+    }
+
+    .about-container{
+        margin-top: 3rem;
+        flex-direction: row;
+    }
+    
+    .description-container{
+        font-size: 16px;
+    }
+
+    .skills-list-container{
+        grid-template-columns: repeat(8, 1fr);
+        align-items: start;
+    }
+
+    .skills-breaker-line {
+        margin: auto 25px;
     }
 
 }

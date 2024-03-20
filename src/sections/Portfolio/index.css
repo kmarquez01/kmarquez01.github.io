@@ -297,13 +297,22 @@
     font-size: 36px;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1170px){
+
+    .portfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .image-holder{
-        height: 300px;
+        height: 15rem;
     }
 
     .project:nth-child(3) > .content-container > .project-title{
         white-space: nowrap;
+    }
+
+    .project:nth-child(3) > .image-holder{
+        height: 30rem;
     }
 
     .skills-breaker-line-reverse{
@@ -319,6 +328,7 @@
 
     .image-holder{
         max-height: 200px;
+        height: 100%;
     }
 
     .project-title{
@@ -345,6 +355,7 @@
 
     .project:nth-child(3) > .image-holder {
         max-height: 400px;
+        height: 100%;
     }
 
     .project:nth-child(4) > .project-title-1{
@@ -401,13 +412,13 @@
     .project:hover > .project-title-1{
         font-size: 24px;
     }
-
+/* 
     .project:nth-child(1) > .image-holder{
-        max-height: 125px;
+        max-height: 10rem;
     }
 
     .project:nth-child(2) > .image-holder{
-        height: 125px;
+        height: 10rem;
     }
 
     .project:nth-child(4) > .image-holder{
@@ -419,21 +430,19 @@
     }
 
     .project:nth-child(6) > .image-holder{
-        max-height: 140px;
+        max-height: 10rem;
         height: 100%;
-    }
+    } */
 
     .image-holder{
-        height: 100%;
-        max-height: 150px;
+        max-height: 12.5rem;
     }
 
     .portfolio-container{
         height: 2em;
     }
     .project:hover > .content-container > .content{
-        margin: auto;
-        font-size: 16px;
+        display: none;
     }
 
     .project:nth-child(3) > .content-container{
@@ -458,8 +467,115 @@
         rotate: none;
     }
 
+}
+
+@media only screen and (max-width: 450px){
+    .image-holder{
+        height: 8.5rem;
+    }
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape){
+
+    .image-holder {
+        max-height: 8rem;
+    }
+    
+    .portfolio-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .project-title{
+        font-size: 24px;
+    }
+
+    .project:hover > .content-container > .project-title{
+        font-size: 24px;
+    }
+
+    .project:hover > .project-title-1{
+        font-size: 24px;
+    }
+
+    .project:nth-child(3) > .content-container{
+        translate: -70px 20px;
+    }
+
+    .project:nth-child(3) > .project-title-1{
+        translate: -70px 20px;
+    }
+
+    .project:nth-child(4) > .content-container{
+        translate: none;
+        rotate: none;
+    }
+
+    .project:nth-child(4) > .project-title-1{
+        translate: none;
+        rotate: none;
+    }
+
     .project:hover > .content-container > .content{
         display: none;
     }
 
+    .skills-breaker-line-reverse{
+        margin-top: 3rem;
+    }
+
 }
+
+
+@media only screen and (max-width: 1170px) and (orientation: landscape){
+
+    .image-holder {
+        max-height: 8rem;
+    }
+    
+    .portfolio-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .project-title{
+        font-size: 24px;
+    }
+
+    .project:hover > .content-container > .project-title{
+        font-size: 24px;
+    }
+
+    .project:hover > .project-title-1{
+        font-size: 24px;
+    }
+
+    .project:nth-child(3) > .content-container{
+        translate: -70px 20px;
+    }
+
+    .project:nth-child(3) > .project-title-1{
+        translate: -70px 20px;
+    }
+
+    .project:nth-child(4) > .content-container{
+        translate: none;
+        rotate: none;
+    }
+
+    .project:nth-child(4) > .project-title-1{
+        translate: none;
+        rotate: none;
+    }
+
+    .project:hover > .content-container > .content{
+        display: none;
+    }
+
+    .skills-breaker-line-reverse{
+        margin-top: 3rem;
+    }
+
+    .project:nth-child(3) > .image-holder{
+        height: 16rem;
+    }
+}
+
