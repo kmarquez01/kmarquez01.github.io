@@ -86,11 +86,12 @@
 }
 
 .skills-list-container{
+    padding-top: 2%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 .wrap-container{
@@ -98,7 +99,7 @@
     display: flex;
     position: relative;
     width: 50%;
-    height: 60%;
+    height: 50%;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -106,7 +107,7 @@
 
 .skill-holder{
     top: -110px;
-    position: absolute;
+    position: relative;
     width: 90px;
     height: 90px;
     border-radius: 10%;
@@ -182,6 +183,15 @@
         margin-top: 50px;
     }
 
+    .skill{
+        font-size: 0.5rem;
+    }
+
+    .skill-holder{
+        width: 5rem;
+        height: 4rem;
+    }
+
 }
 
 @media only screen and (max-width: 800px){
@@ -226,6 +236,7 @@
     .skill{
         font-size: 8px;
     }
+
 
 }
 
@@ -273,13 +284,13 @@
 
 @media only screen and (max-width: 1170px) and (orientation: landscape){
 
-    .about-holder-container{
-        margin: 15px;
-    }
-
     .about-container{
         margin-top: 3rem;
         flex-direction: row;
+    }
+
+    .about-holder-container{
+        margin: 1rem;
     }
     
     .description-container{
@@ -293,6 +304,10 @@
 
     .skills-breaker-line {
         margin: auto 25px;
+    }
+
+    .wrap-container{
+        align-items: flex-start;
     }
 
 }
