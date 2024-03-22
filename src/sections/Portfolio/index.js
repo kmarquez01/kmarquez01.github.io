@@ -1,15 +1,29 @@
 import Navigation from "../../navigation"
 
-import { useRef, useState } from "react"
+import { useEffect } from "react"
 
 import { Link } from 'react-router-dom';
+
+import { motion, useAnimation } from "framer-motion"
 
 import '../Portfolio/index.css'
 import projectsArray from "./projects"
 
+import { useInView } from 'react-intersection-observer';
+
 function Portfolio ({setState, state, divideReverse, portfolioRef}){
 
     state = setState(false)
+
+    const controls = useAnimation();
+    const [ref, inView] = useInView();
+  
+    useEffect(() => {
+      if (inView) {
+        controls.start('visible');
+      }
+    }, [controls, inView]);
+
 
     return (
     <div className = "master-container" ref = {portfolioRef}>
@@ -17,7 +31,23 @@ function Portfolio ({setState, state, divideReverse, portfolioRef}){
         {divideReverse}
             <div className = "portfolio-container" >
             {projectsArray.map((item, index) => (
-                <div href = {item.repository} target = "_blank" className = "project" key = {index}>
+                <motion.div 
+                className = "project"
+                ref = {ref}
+                animate = {controls}
+                initial = "hidden"
+                variants ={{
+                    visible: {opacity: 1},
+                    hidden: {opacity: 0}
+                }}
+                transition = {
+                    {
+                        duration: 1, 
+                        ease: "easeInOut",
+                        delay: 1.5 + (index * 0.25)
+                    }
+                }
+                key = {index}>
                     <img className = "image-holder" src = {item.image}></img>
                     <h1 className = "project-title-1">{item.title}</h1>
                     <div className = "content-container">
@@ -29,7 +59,7 @@ function Portfolio ({setState, state, divideReverse, portfolioRef}){
                             </button>
                         </a> 
                     </div>
-                </div>
+                </motion.div>
              ))}
             </div>
         </div>

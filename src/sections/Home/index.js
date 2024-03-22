@@ -19,7 +19,7 @@ const animationStyle1 = {
     left: "400px",
     transition: {
         ease: "easeInOut",
-        delay: 0.4,
+        delay: 0,
         duration: 15,
         repeat: Infinity
         
@@ -81,7 +81,6 @@ const occupationAnimationStyle = {
             </div>
             <div className = "illustration-container">
                 <PersonIcon className = "personIcon" stroke = "black"/>
-                {/* <img className = "personIcon" src = {personIcon} alt = "My Icon" /> */}
                 <div className = "window-wrap-container">
                     <div className = "window-container">
                         <div className = "clouds-container">

@@ -86,11 +86,7 @@ function About ({setState, divider, state, aboutRef}){
             <div className = "skills-container">
             {divider}
                 <div className = "skills-list-container">    
-                    {skillsIcons.map((Icon, i) => { 
-                        return(
-                        <SkillHolder key = {i} icon = {Icon} controls = {controls} ref = {ref} inView = {inView}/>
-                        );
-                    })}          
+                    <SkillHolder controls = {controls} ref = {ref} inView = {inView}/>      
                 </div>
             </div>
         </div>
