@@ -76,7 +76,7 @@ const occupationAnimationStyle = {
                 <motion.h2
                 className = "occupation-container"
                 animate = {occupationAnimationStyle}>
-                    Fullstack Developer
+                    Software Developer
                 </motion.h2>       
             </div>
             <div className = "illustration-container">
