@@ -107,9 +107,9 @@
         gap: 25px;
     }
     .contact-main-container{
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
-        gap: 0px;
+        gap: 3%;
     }
 
     .contact-description{
@@ -117,10 +117,11 @@
     }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 850px){
 
     .contact-main-container{
         flex-direction: column;
+        justify-content: center;
     }
 
     .contact-form{
