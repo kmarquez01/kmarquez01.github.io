@@ -71,10 +71,9 @@ function About ({setState, divider, state, aboutRef}){
                             visible: opacityAnimation,
                             hidden: {opacity: 0, left: "-300px"}
                         }}>
-                            I am a student at Simon Fraser University, 
-                            looking to get into Full-Stack Development. 
-                            I hope to create working applications, coupled with back end coding. 
-                            A recent experience includes an internship focused on Database development.
+                            I am a Software Developer specializing in database development, information technology, and accounting.
+                            I hope to create working applications to make processes more efficient! 
+                            My most recent experience includes automating policy data at Forward Insurance.
                         </motion.p>
                     </div>
                     <div className = "illustration-container-logo">
