@@ -21,7 +21,7 @@ const projectsArray = [
     {
         title: "GIFTS ON SITE",
         description: "The place to get your gifts in the bundle you desire!",
-        repository: "https://www.giftsonsite.com/",
+        repository: "https://github.com/kmarquez01/Gifts_On_Site",
         image: giftsOnSiteImage
     },
     {
