@@ -37,9 +37,9 @@ const projectsArray = [
         image: todoAppImage
     },
     {
-        title: "CHAT-BOT",
-        description: "Have a quick conversation with a bot for show recommendations!",
-        repository: "https://github.com/kmarquez01/Chatbot",
+        title: "OTTERA",
+        description: "Where itinerary planning meets maps!",
+        repository: "https://github.com/kmarquez01/travel_app",
         image: chatBotImage
     },
     
